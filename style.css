@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+
+}
+header{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+}
+img{
+    width: 100px;
+}
+
+#welcomediv{
+    background-image: url("https://kq-storage.s3.ap-south-1.amazonaws.com/Github/groove-bg%5B1%5D.png");
+    background-size: 100% 100%;
+}
+
+.container{
+    height: 600px;
+    padding: 5%;
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 150px;
+}
+
+p{
+    font-size: 20px;
+}
+
+button{
+    background-color: #31C155;
+    padding: 20px;
+    color: white;
+    font-size: medium;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+h2{
+    font-size: 32px;
+}
+table{
+    margin: 50px auto;
+   
+
+    }
+
+table,tr,td,th{
+ border: 2px solid lightgray;
+ padding: 20px;
+ border-collapse: collapse;
+}
+thead{
+    background-color: #31C155;
+    color: white;
+}
+tr:hover{
+    background-color: rgb(237,234,228);
+
+}
+#quantity{
+    width: 40px;
+}       
+#placeorder{
+    background-color: rgb(39,174,96);
+    padding: 10px;
+    border: none;
+   color: white;
+   width: 150px;
+   font-size: medium;
+   font-weight: bolder;
+}
+footer{
+    background-color: black;
+    color: white;
+    top:218px;
+    position: relative;
+   
+   padding: 30px;
+}
+#thank-text{
+    display: none;
+}
+#mobilenumber{
+    bottom: 10px;
+    position: relative;
+    width: 180px;
+    text-align: center;
+    height: 30px;
+}
+
+
